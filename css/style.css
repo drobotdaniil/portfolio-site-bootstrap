@@ -1,0 +1,216 @@
+.link-header {
+  margin-top: 200px;
+  background: rgba(0, 0, 0, 0.513);
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.link-header__title {
+  font-size: 60px;
+  font-family: Deadpool;
+  color: #34f626;
+}
+
+@font-face {
+  font-family: Deadpool;
+  src: url(../fonts/deadpool.otf);
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: #000;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header {
+  background: url(../img/background.jpg) no-repeat center;
+  min-height: 500px;
+  background-size: cover;
+}
+
+.wrap-bg {
+  background: rgba(0, 0, 0, 0.513);
+}
+
+.logo {
+  width: 100px;
+  padding: 5px 0;
+}
+
+.separator {
+  width: 160px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.menu__item a {
+  font-size: 22px;
+  color: #34f626;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.menu__item a:hover {
+  text-decoration: underline;
+}
+
+.menu__item:first-child {
+  margin: 0 20px;
+}
+
+main {
+  background: #f3f1f1;
+}
+
+.title-header {
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0.513);
+  border-radius: 5px;
+  padding: 20px 0;
+}
+
+.title-header__main {
+  font-size: 60px;
+  font-family: Deadpool;
+  color: #34f626;
+}
+
+.title-header__main .comma {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.title-header__job {
+  font-size: 22px;
+  color: #34f626;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.about__title,
+.skills__title,
+.available__title {
+  font-size: 30px;
+  color: #1eb444;
+  margin-bottom: 20px;
+}
+
+.about__description,
+.skills__description,
+.skills__description__item,
+.available__btn__text {
+  font-size: 18px;
+}
+
+.skills__description {
+  line-height: 32px;
+}
+
+.btn__icon {
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+.available__btn {
+  padding: 5px;
+  background-color: #1eb444;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fafafa;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.available__btn:hover {
+  background-color: #199b39;
+}
+
+.skills__description__item:last-child {
+  margin-top: 5px;
+}
+
+.orange,
+.blue,
+.purple,
+.yellow,
+.dark,
+.lightblue,
+.green {
+  background-color: orangered;
+  border-radius: 5px;
+  padding: 2px;
+  color: white;
+}
+
+.blue {
+  background-color: #4242fb;
+}
+
+.purple {
+  background-color: #a018a0;
+}
+
+.yellow {
+  background-color: #dada2e;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.657);
+}
+
+.lightblue {
+  background-color: #4f69fb;
+}
+
+.green {
+  background-color: #5dbd5d;
+}
+
+footer {
+  background: url(..//img/footer.jpeg) no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+footer .wrap-bg {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.socials {
+  margin-bottom: 20px;
+}
+
+.socials__item {
+  margin-right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.socials__item:hover {
+  color: #34f626;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.rights__text {
+  font-size: 14px;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=style.css.map */
