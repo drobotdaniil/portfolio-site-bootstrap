@@ -1,21 +1,17 @@
-//fonts
-// font-family: 'Cookie', cursive;
-// font-family: 'Roboto Mono', monospace;
-
-
 @import "work";
 
 @font-face {
   font-family: Deadpool;
   src: url(../fonts/deadpool.otf); 
 }
+
+
 body {
   font-family: 'Roboto Mono', monospace;
   color: #000;
 }
 h1{
   margin-bottom: 0;
-
 }
 ul,
 li {
@@ -39,62 +35,56 @@ header{
   width: 100px;
   padding: 5px 0;
 }
-.separator{
+.separator-logo{
   width: 160px;
   transition: 0.3s ease;
-  // &:hover{
-  //   content: url(../img/the3d-logo.png);
-  // }
+}
+.separator{
+  width: 40px;
+  opacity: 0.5;
 }
 .menu__item {
   a {
     font-size: 22px;
-
-    // margin: 0 20px;
     color:rgb(52, 246, 38);
     transition: 0.3s ease;
-
     &:hover {
       text-decoration: underline;
-      // border-bottom: 1px solid rgb(52, 246, 38);
     }
   }
   &:first-child{
     margin: 0 20px;
   }
 }
-
-//main
-main{
-  background: #f3f1f1;
-}
-
 .title-header {
   margin-top: 100px;
-  // background: rgba(255, 0, 0, 0.486);
   background: rgba(0, 0, 0, 0.513);
   border-radius: 5px;
-  // padding-bottom: 100px;
   padding: 20px 0;
-  
 }
-.title-header__main {
+.title-header__main,
+.work__header {
   font-size: 60px;
-  // font-family: 'Cookie', cursive;
   font-family: Deadpool;
   color:rgb(52, 246, 38);
-  .comma{
-    font-family: 'Roboto Mono', monospace;
-  }
+}
+.work__header{
+  color: rgb(30, 180, 68);
 }
 .title-header__job {
   font-size: 22px;
   color:rgb(52, 246, 38);
   font-family: 'Roboto Mono', monospace;
 }
+
+//main
+main{
+  background: #f3f1f1;
+}
 .about__title,
 .skills__title,
-.available__title {
+.available__title,
+.work__title {
   font-size: 30px;
   color: rgb(30, 180, 68);
   margin-bottom: 20px;
@@ -102,11 +92,18 @@ main{
 .about__description,
 .skills__description,
 .skills__description__item,
-.available__btn__text {
+.available__btn__text,
+.work__description {
   font-size: 18px;
 }
 .skills__description{
   line-height: 32px;
+}
+.skills__desc__line{
+  background: silver;
+  margin-top: 5px;
+  height: 1px;
+  width: 280px;
 }
 .btn__icon {
   font-size: 18px;
@@ -123,8 +120,46 @@ main{
     background-color: rgb(25, 155, 57);
   }
 }
-.skills__description__item:last-child {
-  margin-top: 5px;
+
+//project section
+
+.project{
+  color:white;
+  padding: 40px 0 50px 0;
+}
+.project__image{
+  padding: 0 30px;
+}
+.project__image img{
+  max-width: 100%;
+  border-radius: 7px;
+  max-height: 600px;
+}
+.project__title{
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.project__technology,
+.project__desc{
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.project__desc{
+  margin-bottom: 50px;
+}
+.project__btn a{
+  background: rgb(83, 76, 76);
+  border-radius: 5px;
+  padding: 12px 30px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  &:hover{
+    text-decoration: none;
+    background: rgb(49, 48, 48);
+  }
 }
 //colors
 .orange,
@@ -157,6 +192,30 @@ main{
 .green {
   background-color: rgb(93, 189, 93);
 }
+//backgrounds
+.bg1{
+  background: rgb(110, 160, 112);
+}
+.bg2{
+  background: rgb(182, 98, 98);
+}
+.bg3{
+  background: #8c6daa
+}
+.bg4{
+  background: rgb(148, 155, 62);
+}
+.bg5{
+  background: #6859bd
+}
+.bg6{
+  background: rgb(74, 184, 156);
+}
+
+
+
+
+
 
 //footer
 footer {
@@ -176,7 +235,8 @@ footer .wrap-bg{
 }
 .socials__item {
   margin-right: 20px;
-  font-size: 30px;
+  font-size: 15px;
+  color: white;
   cursor: pointer;
   transition: 0.3s ease;
   &:hover {

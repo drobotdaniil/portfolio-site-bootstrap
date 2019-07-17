@@ -49,10 +49,15 @@ header {
   padding: 5px 0;
 }
 
-.separator {
+.separator-logo {
   width: 160px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+}
+
+.separator {
+  width: 40px;
+  opacity: 0.5;
 }
 
 .menu__item a {
@@ -70,10 +75,6 @@ header {
   margin: 0 20px;
 }
 
-main {
-  background: #f3f1f1;
-}
-
 .title-header {
   margin-top: 100px;
   background: rgba(0, 0, 0, 0.513);
@@ -81,14 +82,15 @@ main {
   padding: 20px 0;
 }
 
-.title-header__main {
+.title-header__main,
+.work__header {
   font-size: 60px;
   font-family: Deadpool;
   color: #34f626;
 }
 
-.title-header__main .comma {
-  font-family: 'Roboto Mono', monospace;
+.work__header {
+  color: #1eb444;
 }
 
 .title-header__job {
@@ -97,9 +99,14 @@ main {
   font-family: 'Roboto Mono', monospace;
 }
 
+main {
+  background: #f3f1f1;
+}
+
 .about__title,
 .skills__title,
-.available__title {
+.available__title,
+.work__title {
   font-size: 30px;
   color: #1eb444;
   margin-bottom: 20px;
@@ -108,12 +115,20 @@ main {
 .about__description,
 .skills__description,
 .skills__description__item,
-.available__btn__text {
+.available__btn__text,
+.work__description {
   font-size: 18px;
 }
 
 .skills__description {
   line-height: 32px;
+}
+
+.skills__desc__line {
+  background: silver;
+  margin-top: 5px;
+  height: 1px;
+  width: 280px;
 }
 
 .btn__icon {
@@ -135,8 +150,51 @@ main {
   background-color: #199b39;
 }
 
-.skills__description__item:last-child {
-  margin-top: 5px;
+.project {
+  color: white;
+  padding: 40px 0 50px 0;
+}
+
+.project__image {
+  padding: 0 30px;
+}
+
+.project__image img {
+  max-width: 100%;
+  border-radius: 7px;
+  max-height: 600px;
+}
+
+.project__title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.project__technology,
+.project__desc {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.project__desc {
+  margin-bottom: 50px;
+}
+
+.project__btn a {
+  background: #534c4c;
+  border-radius: 5px;
+  padding: 12px 30px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.project__btn a:hover {
+  text-decoration: none;
+  background: #313030;
 }
 
 .orange,
@@ -176,6 +234,30 @@ main {
   background-color: #5dbd5d;
 }
 
+.bg1 {
+  background: #6ea070;
+}
+
+.bg2 {
+  background: #b66262;
+}
+
+.bg3 {
+  background: #8c6daa;
+}
+
+.bg4 {
+  background: #949b3e;
+}
+
+.bg5 {
+  background: #6859bd;
+}
+
+.bg6 {
+  background: #4ab89c;
+}
+
 footer {
   background: url(..//img/footer.jpeg) no-repeat;
   background-size: cover;
@@ -195,7 +277,8 @@ footer .wrap-bg {
 
 .socials__item {
   margin-right: 20px;
-  font-size: 30px;
+  font-size: 15px;
+  color: white;
   cursor: pointer;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
