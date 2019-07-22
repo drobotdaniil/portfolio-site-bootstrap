@@ -95,6 +95,9 @@ main{
   font-size: 18px;
   margin-bottom: 0;
 }
+.work__description a{
+  color:rgb(30, 180, 68);
+}
 .skills__description{
   line-height: 32px;
 }
@@ -131,6 +134,10 @@ main{
 .project{
   color:white;
   padding: 40px 0 50px 0;
+}
+
+.wrap-img{
+  max-width: 700px;
 }
 .project__image{
   max-width: 100%;
